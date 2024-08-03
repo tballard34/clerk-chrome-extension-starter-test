@@ -11,5 +11,17 @@
     "16": "logo192.png",
     "48": "logo192.png",
     "128": "logo192.png"
-  }
+  },
+  "permissions": [
+    "tabs",
+    "cookies",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://profyx.com/*",
+    "*://api.profyx.com/*",
+    "https://accounts.profyx.io/*",
+    "https://clerk.profyx.io/*",
+    "https://clerk.com/*"
+  ]
 }
